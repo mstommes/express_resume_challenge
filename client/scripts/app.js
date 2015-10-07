@@ -4,7 +4,8 @@ $(document).ready(function(){
 
     //this adds a slide button to the top of the button div
 
-   $("#button-container").prepend("<button id='slideButton'>Please Click Here to Make It All Go Away(or Reappear)!</button>");
+   $("#button-container").prepend("<button id='slideButton'>Click for Note!</button>");
+
     $("#button-container").on("click", "#slideButton", function() {
         if (setSlide){
             $('#mainBody').slideUp(3000);
@@ -14,6 +15,8 @@ $(document).ready(function(){
             $('#mainBody').slideDown(3000);
             setSlide=true;
         }
+       $(".thankyou").show();
+
     });
 });
 

@@ -112,3 +112,12 @@ img {
 
 
 }
+
+.thankyou {
+    display: none;
+    margin-top: 200px;
+    margin-left: 350px;
+    position: absolute;
+    color: #FFFFFF;
+
+}
