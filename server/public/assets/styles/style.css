@@ -12,6 +12,9 @@ background-color: #000000;
     border-radius: 3px;
     box-shadow: 0px 10px 10px 5px #FFFFFF;
 }
+.remodeling {
+    text-align: center;
+}
 
 .topImage{
     background-image: url("../images/itasca.JPG");
