@@ -12,6 +12,18 @@ module.exports = function(grunt) {
             }
         },
         copy: {
+            fontawesome:{
+                expand: true,
+                cwd: "node_modules/",
+                src: [
+                    "font-awesome/css/font-awesome.css",
+                    "font-awesome/fonts/fontawesome-webfont.svg",
+                    "font-awesome/fonts/fontawesome-webfont.ttf",
+                    "font-awesome/fonts/fontawesome-webfont.woff",
+                    "font-awesome/fonts/fontawesome-webfont.woff2"
+                ],
+                "dest": "server/public/vendors/"
+            },
             bootstrap:{
                 expand: true,
                 cwd: "node_modules/",
