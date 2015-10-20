@@ -1,24 +1,20 @@
-$(document).ready(function(){
-
-    var setSlide = true;
-
-    //this adds a slide button to the top of the button div
-
-   $("#button-container").prepend("<button id='slideButton'>Click for Note!</button>");
-
-    $("#button-container").on("click", "#slideButton", function() {
-        if (setSlide){
-            $('#mainBody').slideUp(3000);
-            setSlide=false;
-
-        }else{
-            $('#mainBody').slideDown(3000);
-            setSlide=true;
-        }
-       $(".thankyou").show();
-
-    });
-});
+//$(document).ready(function(event){
+//    $event.preventDefault();
+//    $.ajax({
+//        type: 'POST',
+//        url: "",
+//        dataType: "json",
+//        success: function(response){
+//            alert("Thank you for contacting us  Someone will be in touch with you shortly.")
+//        },
+//        error: function(response){
+//
+//        }
+//    });
+//
+//
+//
+//});
 
 
 

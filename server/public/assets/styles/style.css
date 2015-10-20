@@ -1,3 +1,4 @@
+
 .navigation {
     display: inline;
     background-color: #000000;
@@ -7,8 +8,13 @@
 }
 
 .jumbotron{
-    background-image: url('../images/skyline.png');
-    height: 800px;
+    background-image: url('../images/skyline2.png');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 720px;
+    margin: auto;
 
 }
 
@@ -128,4 +134,20 @@ input{
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 2px;
+}
+
+
+.portrait{
+    background-image: url('../images/image.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin:35px auto;
+
+}
+
+
+p {
+    padding: 10px  25px;
 }
